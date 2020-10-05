@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Meu primeiro formulário"</title>
+    <link href=css/formulario.css rel="stylesheet">
+
+
+  </head>
+  <body>
+    <form action="/pagina-processa-dados-do-form" method="post">
+      <p>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="usuario-nome">
+      </p>
+
+      <p>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="usuario-email">
+      </p>
+
+      <p>
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg" name="usuario-msg"></textarea>
+      </p>
+
+      <p class="button">
+        <button type="submit" >Enviar sua mensagem</button>
+      </p>
+
+    </form>
+  </body>
+</html>
